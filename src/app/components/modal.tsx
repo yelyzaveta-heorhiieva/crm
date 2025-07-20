@@ -10,6 +10,7 @@ export interface ModalProps {
 }
 
 export default function Modal({ show, children, onClose }: ModalProps) {
+    
   return (
     <Transition.Root as={Fragment} show={show}>
       <Dialog
